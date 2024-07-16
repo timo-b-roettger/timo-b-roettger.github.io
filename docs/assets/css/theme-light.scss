@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+// fonts
+$font-family-sans-serif: "Maven Pro", "Yanone Kaffeesatz" !default;
+$font-family-monospace: "Fira Mono" !default;
+
+//
+$body-bg: #fff;
+
+
+// headings
+$body-color: #313131 !default;
+$link-color: #EB9937 !default;
+$link-color-hover: #EB9937 !default;
+$tabset-border-color: #fff !default;
+
+h1 {
+  color: #EB9937 !important;
+}
+
+// Custom
+.myfooter {  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+  height: 0;
+  color: #5f6a72;
+  background-color: #ffffff;
+  font-size: 0.75em;
+}
+

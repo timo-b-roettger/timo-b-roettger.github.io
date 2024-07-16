@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+  resources: 
+    - "assets"
+
+website:
+  title: "Timo Roettger"
+  favicon: "./assets/img/SimplPoints_Logo.png"
+  twitter-card: true
+  site-url: "https://www.simplpoints.github.io"
+  open-graph: true
+  #google-analytics: "UA-49437230-1"
+  navbar:
+    background: white
+    left:
+      - text: "Research"
+        href: research.html
+      # - text: "Code"
+      #   href: code.html
+      # - text: "Teaching"
+      #   href: teaching.html
+      # - text: "Posts"
+      #   href: blog.html
+  page-footer:
+    center: 
+      - text: "© Copyright 2024"
+
+format:
+  html:
+    theme:
+      light: ./assets/css/theme-light.scss
+      dark: [darkly, ./assets/css/theme-dark.scss]
+    toc: true
+

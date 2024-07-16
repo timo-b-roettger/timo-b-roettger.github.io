@@ -1,0 +1,87 @@
+---
+title: "Timo B. Roettger"
+image: "./assets/img/About_face.jpg"
+# was .png
+page-layout: full
+toc: false
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - text: "{{< fa envelope size=2xl >}}"
+      href: mailto:timo.roettger@iln.uio.no
+    - text: "{{< ai orcid size=2xl >}}"
+      href: https://orcid.org/0000-0003-1400-2739
+    - text: "{{< ai google-scholar size=2xl >}}"
+      href: https://scholar.google.com/citations?user=aw5VPREAAAAJ&hl=en&inst=4058163445224007304
+    - text: "{{< ai researchgate size=2xl >}}"
+      href: https://www.researchgate.net/profile/Timo-Roettger
+    - text: "{{< fa brands twitter size=2xl >}}"
+      href: https://twitter.com/timoroettger
+engine: knitr
+---
+
+```{css}
+/*| echo: false */
+
+.about-entity {
+  padding-top: 100px;
+}
+
+.about-link {
+  color: #EB9937 !important;
+  padding: 10px !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  background-color: transparent !important;
+}
+
+.about-link:hover {
+  background-color: #000000 !important;
+
+}
+
+h1 {
+  line-height: 1.1;
+  margin-bottom: 4px;
+  font-size: 1.5em;
+  color: #000000 !important;
+}
+
+h3 {
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+h4 {
+  color: #EB9937;
+  text-transform: none;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.myfooter {
+  color: #fff;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.myfooter img {
+  width: 0;
+}
+
+```
+
+<a href="https://troettge.github.io/assets/pdf/New_CV_Timo_Roettger.pdf" style="text-align:center">myCV</a>
+
+
+```{r}
+#| label: fig-timeline
+#| echo: false
+
+knitr::include_graphics("./assets/img/About_only_timeline.jpg")
+
+```
