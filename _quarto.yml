@@ -10,7 +10,7 @@ website:
   title: "Timo Roettger"
   favicon: "./assets/img/SimplPoints_Logo.png"
   twitter-card: true
-  site-url: "https://www.simplpoints.github.io"
+  site-url: "https://www.timo-b-roettger.github.io"
   open-graph: true
   #google-analytics: "UA-49437230-1"
   navbar:
