@@ -1,5 +1,5 @@
 
-# simplpoints.github.io
+# timo.b.roettger.github.io
 
 Last update: 17th July 2024
 
