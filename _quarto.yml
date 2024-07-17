@@ -32,6 +32,6 @@ format:
   html:
     theme:
       light: ./assets/css/theme-light.scss
-      dark: [darkly, ./assets/css/theme-dark.scss]
+      #dark: [darkly, ./assets/css/theme-dark.scss]
     toc: true
 
