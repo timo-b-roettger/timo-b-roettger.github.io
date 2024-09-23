@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.timo-b-roettger.github.io/index.html</loc>
-    <lastmod>2024-07-16T13:17:19.318Z</lastmod>
+    <lastmod>2024-09-23T05:06:13.704Z</lastmod>
   </url>
   <url>
     <loc>https://www.timo-b-roettger.github.io/research.html</loc>
     <lastmod>2024-07-16T13:46:27.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.timo-b-roettger.github.io/about.html</loc>
+    <lastmod>2024-07-16T14:12:58.637Z</lastmod>
   </url>
 </urlset>

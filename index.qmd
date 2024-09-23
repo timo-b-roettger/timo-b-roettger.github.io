@@ -94,15 +94,22 @@ print_list <- function(text = "text", fa = "fas fa-graduation-cap") {
 
 ```
 
-### Professor for Linguistics 
+### Cognitive Science - Methodological Reform - Language  
 
-#### University of Oslo
+#### Prof of Linguistics at University of Oslo
 
 <p align="justify">
 I consider myself a cognitive scientist with a focus on human speech. My scientific work has two goals: to understand how people communicate their intentions using speech and to help improve methodological practices across the language sciences.
 </p>
 
+<p align="left">
+<img src="/docs/assets/img/page_icon.png" width="50"> 
+<a href="https://github.com/timo-b-roettger/timo-b-roettger.github.io/blob/main/docs/assets/pdf/New_CV_Timo_Roettger.pdf">Detailed CV</a>
+
+
+
 <br>
+
 
 <!-- :::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"} -->
 
@@ -149,7 +156,10 @@ print_list(
     "PhD in Phonetics, 2016, University of Cologne" 
     )
   )
+
+  
 ```
+
 
 :::
 
