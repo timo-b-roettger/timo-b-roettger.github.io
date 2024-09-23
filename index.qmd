@@ -96,7 +96,7 @@ print_list <- function(text = "text", fa = "fas fa-graduation-cap") {
 
 ### Cognitive Science - Methodological Reform - Language  
 
-#### Prof of Linguistics at University of Oslo
+#### Professor of Linguistics at University of Oslo
 
 <p align="justify">
 I consider myself a cognitive scientist with a focus on human speech. My scientific work has two goals: to understand how people communicate their intentions using speech and to help improve methodological practices across the language sciences.
