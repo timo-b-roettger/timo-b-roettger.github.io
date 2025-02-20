@@ -104,7 +104,7 @@ ref_printer <- function(pubs) {
 #| results: 'asis'
 cite_key_list |>
   filter(
-    type_check == "book", 
+    type_check == "book",
     !(year %in% c("In press", "Under review", "in preparation"))
     ) |> 
   arrange(desc(year)) |>
@@ -120,7 +120,8 @@ cite_key_list |>
 #| label: print-in-prep
 #| results: 'asis'
 cite_key_list |>
-  filter(year == "in preparation") |>
+  filter(type_check == "journalarticle",
+         year == "in preparation") |>
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -132,7 +133,8 @@ cite_key_list |>
 #| label: print-submitted
 #| results: 'asis'
 cite_key_list |>
-  filter(year == "Under review") |>
+  filter(type_check == "journalarticle",
+         year == "under review") |>
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -143,7 +145,9 @@ cite_key_list |>
 ```{r}
 #| label: print-in-press
 #| results: 'asis'
-filter(cite_key_list, type_check == "journalarticle" & year == "In press") |> 
+cite_key_list |>
+  filter(type_check == "journalarticle",
+         year == "in press") |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -157,7 +161,7 @@ filter(cite_key_list, type_check == "journalarticle" & year == "In press") |>
 cite_key_list |>
   filter(
     type_check == "journalarticle", 
-    !(year %in% c("Under review", "In preparation"))
+    !(year %in% c("in press", "under review", "in preparation"))
     ) |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
