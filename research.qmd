@@ -157,7 +157,7 @@ filter(cite_key_list, type_check == "journalarticle" & year == "In press") |>
 cite_key_list |>
   filter(
     type_check == "journalarticle", 
-    !(year %in% c("In press", "Under review", "in preparation"))
+    !(year %in% c("Under review", "In preparation"))
     ) |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
