@@ -121,7 +121,7 @@ cite_key_list |>
 #| results: 'asis'
 cite_key_list |>
   filter(type_check == "journalarticle",
-         year == "in preparation") |>
+         year_check == "preparation") |>
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -134,7 +134,7 @@ cite_key_list |>
 #| results: 'asis'
 cite_key_list |>
   filter(type_check == "journalarticle",
-         year == "under review") |>
+         year_check == "review") |>
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -147,7 +147,7 @@ cite_key_list |>
 #| results: 'asis'
 cite_key_list |>
   filter(type_check == "journalarticle",
-         year == "in press") |> 
+         year_check == "press") |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
@@ -161,7 +161,7 @@ cite_key_list |>
 cite_key_list |>
   filter(
     type_check == "journalarticle", 
-    !(year %in% c("in press", "under review", "in preparation"))
+    !(year_check %in% c("press", "review", "preparation"))
     ) |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
