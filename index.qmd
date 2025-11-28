@@ -1,6 +1,6 @@
 ---
 title: "Timo B. Roettger"
-image: "./assets/img/About_face.jpg"
+image: "./assets/img/About_face.png"
 # was .png
 page-layout: full
 toc: false
@@ -78,7 +78,7 @@ h4 {
 ```
 
 ```{r}
-#| label: printing-fuctions
+#| label: printing-functions
 #| echo: false
 
 wrap_li <- function(text = "text", fa = "fas fa-graduation-cap") {
