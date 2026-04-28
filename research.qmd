@@ -81,7 +81,7 @@ BibOptions(
   style = "markdown", 
   dashed = FALSE, 
   sorting = "ynt", 
-  max.names = 500, 
+  max.names = 4, 
   first.inits = TRUE, 
   check.entries = FALSE
   )
